@@ -76,6 +76,6 @@ jobs:
           filename: metrics.plugin.leetcode.svg
           token: NOT_NEEDED
           base: ""
-          plugin_leetcode_user: plnastalli
+          plugin_leetcode_user: PLNastalli
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills
