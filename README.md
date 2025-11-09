@@ -2,3 +2,4 @@
 ![languages](./metrics.plugin.languages.svg)
 ![calendar](./metrics.plugin.isocalendar.fullyear.svg)
 ![stars](./metrics.plugin.stars.svg)
+![leetcode](./metrics.plugin.leetcode.svg)
