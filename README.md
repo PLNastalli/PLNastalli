@@ -1,42 +1,48 @@
-<!-- <h1 align="center">Hi 👋, I'm Pl Nastalli</h1> -->
-<p> <img src="https://komarev.com/ghpvc/?username=plnastalli&label=Profile%20views&color=0e75b6&style=flat" alt="plnastalli" /> </p>
+# PL Nastalli
 
-<div align="center">
- <table>
-   <tr>
-     <td rowspan=2> <img src="./metrics.classic.svg" alt="classic" /> </td>
-     <td> 
-	     <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="fullyear" /> 
-     </td>
-   </tr>
-   <tr>
-	   <td><img src="./metrics.plugin.languages.svg" alt="languages" /></td> 
-   </tr>
-   <tr>
-	   <td rowspan="2"><img src="./metrics.plugin.stars.svg" alt="stars" /></td> 
-   </tr>
-   <tr>
-	   <td><img src="./metrics.plugin.leetcode.svg" alt="leetcode" /></td> 
-   </tr>
- </table>
-</div>
-<hr/>
+**Systems programming • Rust • Operating systems**
 
-<!-- Stats opcionais (github-readme-stats) -->
-<!-- 
-<p> <img alt="Stats" src="https://github-readme-stats.vercel.app/api?username=plnastalli&count_private=true&show_icons=true&theme=dracula" /> </p> 
-<p> <img alt="Stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=plnastalli&theme=dracula" /> </p>
-<p> <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=plnastalli&layout=compact&langs_count=10&show_icons=true&theme=dracula" /> </p> 
--->
+I build low-level software with a focus on Rust, kernel architecture, performance, and user-controlled computing.
 
-<a href="https://discord.com/users/1051216604098207854">
-  <img src="https://lanyard.kyrie25.dev/api/1051216604098207854?animatedDecoration=true&showDisplayName=false&theme=dark&showBanner=animated&imgStyle=square&gradient=E21B22-F71746-F23D92-CA3AB0-9138A7-69208E&hideDecoration=false&animated=true" alt="Discord" />
-</a>
+## Current focus
 
-<!--
-**plnastalli/plnastalli** é um ✨ repositório especial ✨ porque o `README.md` aparece direto no seu perfil.
+### [Nastalli](https://github.com/PLNastalli/Nastalli)
 
-- 💻 Estudante de Python e IA  
-- 🧠 Criando automações e projetos com GPT  
-- ⚙️ Explorando dev, segurança e sistemas inteligentes  
--->
+An experimental operating system kernel written primarily in Rust, currently targeting **x86_64 + UEFI + QEMU/OVMF**.
+
+Nastalli is being designed around:
+
+- memory safety by default;
+- explicit kernel / HAL / architecture boundaries;
+- `no_std` Rust and low-level systems programming;
+- owner-controlled security and trust;
+- evidence-based engineering and documentation;
+- long-term architectural independence.
+
+> **The machine belongs to its owner.**
+
+## What I work on
+
+- Rust systems programming
+- Operating-system and kernel development
+- x86_64 architecture
+- UEFI and boot infrastructure
+- Memory management and scheduling
+- Low-level performance work
+- Security-oriented system design
+
+## Engineering approach
+
+I prefer small, verifiable changes over speculative abstractions. Current work on Nastalli is developed with documented milestones, CI, tests, explicit `unsafe` boundaries, and a roadmap toward isolated userspace and a stable production-grade baseline.
+
+## Main project
+
+| Project | Status | Stack |
+|---|---|---|
+| **[Nastalli](https://github.com/PLNastalli/Nastalli)** | Active development | Rust, `no_std`, x86_64, UEFI, QEMU |
+
+## GitHub
+
+Most experimental and older repositories are kept private so the public profile stays focused on actively maintained work.
+
+For technical details, architecture, roadmap, and current implementation status, see the **[Nastalli repository](https://github.com/PLNastalli/Nastalli)**.
